@@ -20,4 +20,4 @@ Run tests:
 ```bash
 python3 -m unittest discover
 ```
-Example output is in `output.txt` file
+Example output is in `output.txt` file.
