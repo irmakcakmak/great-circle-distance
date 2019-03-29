@@ -1,0 +1,18 @@
+INFO:__main__:Users to invite:
+INFO:__main__:user_id: 4 name: Ian Kehoe
+INFO:__main__:user_id: 5 name: Nora Dempsey
+INFO:__main__:user_id: 6 name: Theresa Enright
+INFO:__main__:user_id: 8 name: Eoin Ahearn
+INFO:__main__:user_id: 11 name: Richard Finnegan
+INFO:__main__:user_id: 12 name: Christina McArdle
+INFO:__main__:user_id: 13 name: Olive Ahearn
+INFO:__main__:user_id: 15 name: Michael Ahearn
+INFO:__main__:user_id: 17 name: Patricia Cahill
+INFO:__main__:user_id: 23 name: Eoin Gallagher
+INFO:__main__:user_id: 24 name: Rose Enright
+INFO:__main__:user_id: 26 name: Stephen McArdle
+INFO:__main__:user_id: 29 name: Oliver Ahearn
+INFO:__main__:user_id: 30 name: Nick Enright
+INFO:__main__:user_id: 31 name: Alan Behan
+INFO:__main__:user_id: 39 name: Lisa Ahearn
+
