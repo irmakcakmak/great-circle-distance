@@ -48,3 +48,11 @@ class PointTest(unittest.TestCase):
     def test_point_from_malformed_data(self):
         with self.assertRaises(ValueError):
             Point.from_record({"lat": 41, "lon": 29})
+
+    def test_invalid_lat(self):
+        with self.assertRaises(ValueError):
+            Point.from_record({"latitude": 91, "longitude": 20})
+
+    def test_invalid_lon(self):
+        with self.assertRaises(ValueError):
+            Point.from_record({"latitude": -70, "longitude": -181})

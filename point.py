@@ -7,8 +7,14 @@ EARTH_RADIUS = 6378.137  # km
 class Point:
 
     def __init__(self, lat, lon):
-        self.lat = lat
-        self.lon = lon
+        if lat < -90.0 or lat > 90.0:
+            raise ValueError("Latitude must be between -90.0 and 90.0")
+
+        if lon < -180.0 or lon > 180.0:
+            raise ValueError("Longitude must be between -180.0 and 180.0")
+
+        self.lat = float(lat)
+        self.lon = float(lon)
 
     @classmethod
     def from_record(cls, data):
