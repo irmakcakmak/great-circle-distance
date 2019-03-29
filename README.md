@@ -8,6 +8,11 @@ and finds users within the given perimeter and logs their data.
 
 Run with command:
 ```bash
+python3 main.py --file <file_path> 
+```
+
+Program works well with certain defaults. If certain parameters wanted to be changed:
+```bash
 python3 main.py --file <file_path> --max-dist 100 --lat 53.339426 --lon -6.257664
 ```
 
